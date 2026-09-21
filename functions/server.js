@@ -9,7 +9,7 @@ app.use(express.json());
 // Your Agora Credentials
 const AGORA_APP_ID = "abbfdcaae96a4e6bab5aa770c5ac513d";
 // REPLACE THIS WITH YOUR ACTUAL AGORA PRIMARY CERTIFICATE FROM AGORA CONSOLE
-const AGORA_APP_CERTIFICATE = "YOUR_AGORA_PRIMARY_CERTIFICATE"; 
+const AGORA_APP_CERTIFICATE = "f865223dfd9749babcc39188d39b5878"; 
 
 // Endpoint to generate dynamic RTC Tokens
 app.get("/generateAgoraToken", (req, res) => {
